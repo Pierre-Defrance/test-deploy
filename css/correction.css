@@ -94,6 +94,17 @@ body {
     width: 30px;
 }
 
+.cart-products__qty::-webkit-outer-spin-button,
+.cart-products__qty::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+.cart-products__qty[type="number"] {
+    -moz-appearance: textfield;
+}
+
 .cart-products__remove-product {
     color: #c80000;
     text-decoration: underline;
