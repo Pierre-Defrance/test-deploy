@@ -129,6 +129,19 @@ body {
     margin: 0 3%;
 }
 
+@media (max-width:768px) {
+    .cart-delivery,
+    .cart-actions{
+    
+    flex-direction: column;
+    }
+    .button {
+        margin-bottom: 1em;
+    }
+    
+}
+
+
 .cart-delivery__part-title {
     color: #666;
     font-weight: bold;
